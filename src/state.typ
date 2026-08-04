@@ -15,7 +15,7 @@
 /// Horizontal page margin
 #let HORIZONTAL_PAGE_MARGIN = 12mm
 /// Vertical page margin
-#let VERTICAL_PAGE_MARGIN = 15mm
+#let VERTICAL_PAGE_MARGIN = 10mm
 /// All page margins, defined explicitly
 #let PAGE_MARGIN = (
   left: HORIZONTAL_PAGE_MARGIN,

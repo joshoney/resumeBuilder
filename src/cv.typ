@@ -122,7 +122,7 @@
   show: body => (
     context {
       set document(
-        title: "Curriculum Vitae",
+        title: "Resume - Joshua Oney",
         author: (
           author.at("firstname", default: "")
             + " "
@@ -163,7 +163,7 @@
 
       context {
         let footer-items = (
-          [#author.firstname #author.lastname CV],
+          [#author.firstname #author.lastname Resume],
           if date == auto {
             custom-date-format(
               datetime.today(),
@@ -219,7 +219,7 @@
           right: page.margin.right,
           top: page.margin.top,
         ),
-        inset: (bottom: header-padding),
+        inset: (bottom: 1em),
       )[
         #set align(center)
         #set text(fill: white, font: heading-font) // if you see a warning here, your font was not found/loaded
@@ -229,7 +229,7 @@
           #text(weight: "medium")[#author.lastname]
         ]
 
-        #v(-0.5em)
+        #v(-1em)
 
         #if "position" in author {
           let position = if type(author.position) == array {
