@@ -1,0 +1,11 @@
+#let profile_info = (
+    firstname: "Harry",
+    lastname: "Sheldon",
+    email: "hsel@fake.com",
+    address: [San Francisco, CA],
+    phone: "(555) 111-5555",
+    github: "githubusername",
+    linkedin: "linkedinshortname",
+    customsitelabel: "mysite",
+    customsitelink: "https://harryseldon.dev"
+)
