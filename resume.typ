@@ -41,7 +41,7 @@
 
 = AI & Automation
   #item-pills((
-    "Playwright", "Selenium", "k6/Grafana", "LangGraph", "LangChain", "MCP", "Hermes", "Claude Code", "Gemini", "GPT series", "Cursor", "Copilot", "vLLM", "Ollama"
+    "Playwright", "FastMCP", "Selenium", "k6", "LangGraph", "LangChain", "LangSmith", "Temporal", "Hermes", "Claude Code", "Cursor", "Gemini", "GPT series", "Copilot", "vLLM", "Ollama"
   ))
 
   = Cloud & Infrastructure
