@@ -188,7 +188,7 @@
 
     #grid(
       columns: (ENTRY_LEFT_COLUMN_WIDTH, auto),
-      align: (right, left),
+      align: (left, left),
       column-gutter: .8em,
       [
         #text(
