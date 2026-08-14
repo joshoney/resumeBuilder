@@ -82,25 +82,27 @@
 
   = Experience
 
+  #v(.2cm)
+
   #entry(
     title: [_OLO, Inc._],
-    institution: [*Senior Software Engineer II*],
+    institution: [*Senior SDET II  / Senior SE II*],
     location: "Remote",
-    date: "May 2026\n–\nSep 2023",
+    date: "Jan 2021 - May 2026",
     [
-      - *Scale & Performance:* Led platform stability initiatives for OLO's C\#/\.NET Ordering platform on AWS and Kubernetes, improving reliability across infrastructure sustaining peaks exceeding 4,500 orders per minute.
-      - *Event Readiness:* Engineered a high-concurrency k6 regression suite mimicking historical failure scenarios, establishing a standardized readiness protocol used to verify system stability before major high-traffic events. The suite served as an early-warning indicator on at least two occasions, while also providing bi-weekly load tests surfacing areas of concern.
-      - *Infrastructure Modernization:* Orchestrated large-scale cross-team initiatives using Terraform, including cross-platform API migrations and high-scale database conversions (MSSQL, CockroachDB), ensuring zero downtime and maintaining strict contract integrity.
-      - *Agile Delivery & Quality Execution:* Actively participated in Agile/Scrum processes, bringing quality into planning, estimation, and refinement. Breaking down requirements and edge cases into tests. Wrote automated tests and reviewed code throughout sprints, ensuring test coverage and maintainability.
+      - *Scale & Performance:* Led platform stability initiatives for OLO's C\#/\.NET Ordering platform on AWS and Kubernetes, improving reliability across infrastructure sustaining peaks exceeding 4,500 orders per minute
+      - *Event Readiness:* Engineered a high-concurrency k6 regression suite mimicking historical failure scenarios, establishing a standardized readiness protocol used to verify system stability before major high-traffic events. The suite served as an early-warning indicator on at least two occasions, while also providing bi-weekly load tests surfacing areas of concern
+      - *Infrastructure Modernization:* Orchestrated large-scale cross-team initiatives using Terraform, including cross-platform API migrations and high-scale database conversions (MSSQL, CockroachDB), ensuring zero downtime and maintaining strict contract integrity
     ],
   )
 
   #entry(
-    institution: [*Senior SDET II / Senior Software Quality Engineer*],
-    date: "Aug 2023\n-\nJan 2018",
+    institution: [*Senior Software Quality Engineer II*],
+    date: "Jan 2018 - Jan 2021",
     [
-      - *Testing Architecture:* Co-architected a company-wide automated testing platform (Selenium, Playwright, k6) integrated into CI/CD pipelines (TeamCity, GitHub Actions, Octopus Deploy), enabling 10–15 product teams to accelerate release cadence from weekly to routine daily deployments.
-      - *Engineering Standards & Quality Governance:* Authored organization-wide quality standards adopted by 20+ teams, codifying procedural patterns in Confluence to align engineering principles across the company.
+      - *Testing Architecture:* Co-architected a company-wide automated testing platform (Selenium, Playwright, k6) integrated into CI/CD pipelines (TeamCity, GitHub Actions, Octopus Deploy), enabling 10–15 product teams to accelerate release cadence from weekly to routine daily deployments
+      - *Engineering Standards & Quality Governance:* Authored organization-wide quality standards adopted by 20+ teams, codifying procedural patterns in Confluence to align engineering principles across the company
+      - *Agile Delivery & Quality Execution:* Actively participated in Agile/Scrum processes, bringing quality into planning, estimation, and refinement. Breaking down requirements and edge cases into tests. Wrote automated tests and reviewed code throughout sprints, ensuring test coverage and maintainability
     ],
   )
 
@@ -110,10 +112,10 @@
     title: [_InVisionApp_],
     institution: [*Software QA Lead*],
     location: "Remote",
-    date: "Nov 2017\n-\nFeb 2016",
+    date: "Feb 2016 - Nov 2017",
     [
-      - *Infrastructure Observability:* Designed TypeScript validation and Datadog monitoring tooling for enterprise AWS and Kubernetes deployments, delivering real-time visibility and Slack alerts across dozens of dynamically scaling clusters.
-      - *CI/CD Modernization:* Migrated legacy automation pipelines from Jenkins to containerized environments on Docker and Kubernetes, supporting continuous deployment with multiple daily releases.
+      - *Infrastructure Observability:* Designed TypeScript validation and Datadog monitoring tooling for enterprise AWS and Kubernetes deployments, delivering real-time visibility and Slack alerts across dozens of dynamically scaling clusters
+      - *CI/CD Modernization:* Migrated legacy automation pipelines from Jenkins to containerized environments on Docker and Kubernetes, supporting continuous deployment with multiple daily releases
     ],
   )
 
@@ -123,10 +125,10 @@
     title: [_Viakoo_],
     institution: [*Software QA Engineer*],
     location: "Remote",
-    date: "Jul\n2015\n-\nDec 2013",
+    date: "Dec 2013 - Jul 2015",
     [
-      - *Simulation Platform Architecture:* Architected a modular simulation engine from scratch (Java, Jenkins), empowering non-technical teams to validate complex system behaviors without writing code.
-      - *Synthetic Data Architecture:* Engineered a synthetic data generator mimicking high-throughput security pipelines, expanding the core engine into an interactive web app for live system demos.
+      - *Simulation Platform Architecture:* Architected a modular simulation engine from scratch (Java, Jenkins), empowering non-technical teams to validate complex system behaviors without writing code
+      - *Synthetic Data Architecture:* Engineered a synthetic data generator mimicking high-throughput security pipelines, expanding the core engine into an interactive web app for live system demos
     ],
   )
 
@@ -137,9 +139,9 @@
     title: [_Shopatron_],
     institution: "QA Team Lead",
     location: "San Luis Obispo, CA",
-    date: "Dec 2013\n-\nAug 2010",
+    date: "Aug 2010 - Dec 2013",
     [
-      - *Leadership & Modernization:* Led a team of 3 engineers to modernize core product automation infrastructure using Selenium, Java, and Jenkins, advancing from Quality Engineer to QA Team Lead.
+      - *Leadership & Modernization:* Led a team of 3 engineers to modernize core product automation infrastructure using Selenium, Java, and Jenkins, advancing from Quality Engineer to QA Team Lead
     ],
   )
 

@@ -186,36 +186,30 @@
   context block(above: 1em, below: 0.65em)[
     #let theme = __st-theme.final()
 
-    #grid(
-      columns: (ENTRY_LEFT_COLUMN_WIDTH, auto),
-      align: (left, left),
-      column-gutter: .8em,
-      [
-        #text(
-          size: ENTRY_DATE_FONT_SIZE_SCALE * 1em,
-          fill: theme.font-color.lighten(50%),
-          date,
-        )
-      ],
-      [
-        #set text(size: ENTRY_CONTENT_FONT_SIZE_SCALE * 1em)
+    #set text(size: ENTRY_CONTENT_FONT_SIZE_SCALE * 1em)
 
-        #text(weight: "semibold", title)
+    #block([
+      #text(weight: "semibold", title)
+      #h(1fr)
+      #text(
+        size: ENTRY_DATE_FONT_SIZE_SCALE * 1.1em,
+        fill: theme.font-color.lighten(20%),
+        date,
+      )
+    ])
 
-        #text(size: 0.9em, smallcaps([
-          #if institution != "" or location != "" [
-            #institution
-            #h(1fr)
-            #if location != "" [
-              #fa-icon("location-dot", size: 0.85em, fill: theme.accent-color)
-              #location
-            ]
-          ]
-        ]))
+    #text(size: 0.9em, smallcaps([
+      #if institution != "" or location != "" [
+        #institution
+        #h(1fr)
+        #if location != "" [
+          #fa-icon("location-dot", size: 0.85em, fill: theme.accent-color)
+          #location
+        ]
+      ]
+    ]))
 
-        #text(size: 0.9em, description)
-      ],
-    )
+    #text(size: 0.9em, description)
   ]
 }
 
