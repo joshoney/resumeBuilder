@@ -60,11 +60,9 @@
   context {
     let theme = __st-theme.final()
 
-    set text(size: 0.95em)
 
     block(width: 100%, height: size, radius: 0.6em, align(horizon, [
-      #__fa-icon-outline(icon, size: size)
-      #box(inset: (left: 0.2em), height: 100%, link(url)[#display])
+      #box(height: 100%, link(url)[#display])
     ]))
   }
 )
@@ -203,7 +201,6 @@
         #institution
         #h(1fr)
         #if location != "" [
-          #fa-icon("location-dot", size: 0.85em, fill: theme.accent-color)
           #location
         ]
       ]
@@ -282,7 +279,7 @@
       ("orcid", "orcid", "https://orcid.org/"),
     )
 
-    set text(size: 0.95em, fill: luma(100))
+    set text(size: ENTRY_CONTENT_FONT_SIZE_SCALE / SIDE_CONTENT_FONT_SIZE_SCALE * 1em)
 
     for (key, icon, url-prefix) in social-defs {
       if key in author {
@@ -291,6 +288,8 @@
 
         if key == "website" {
           display = display.replace(regex("https?://"), "")
+        } else if key == "github" {
+          display = "github.com/" + display
         } else if key == "mastodon" {
           url = {
             let parts = display.split("@")
@@ -329,6 +328,8 @@
   let author = __st-author.final()
   let accent-color = __st-theme.final().accent-color
 
+  set text(size: ENTRY_CONTENT_FONT_SIZE_SCALE / SIDE_CONTENT_FONT_SIZE_SCALE * 1em)
+
   let contact-defs = (
     ("email", "envelope", a => link("mailto:" + a.email, a.email)),
     (
@@ -344,7 +345,6 @@
   for (key, icon, render) in contact-defs {
     if key in author {
       contact-items += (
-        [#v(-0.2em) #fa-icon(icon, fill: accent-color)],
         render(author),
       )
     }
@@ -352,10 +352,9 @@
 
   if contact-items.len() > 0 {
     table(
-      columns: (1em, 1fr),
-      align: (center, left),
+      columns: (1fr,),
+      align: (left,),
       inset: 0pt,
-      column-gutter: 0.5em,
       row-gutter: 1em,
       stroke: none,
       ..contact-items
