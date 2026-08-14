@@ -10,11 +10,11 @@
     firstname: profile_info.firstname,
     lastname: profile_info.lastname,
     email: profile_info.email,
-    address: profile_info.address,
-    phone: profile_info.phone,
-    position: ("Senior Software Developer"),
+    //address: profile_info.address,
+    //phone: profile_info.phone,
+    position: ("Senior Software Engineer"),
     github: profile_info.github,
-    linkedin: profile_info.linkedin,
+    //linkedin: profile_info.linkedin,
     custom-links: (
       (
         icon-name: "terminal", // Font Awesome icon name
@@ -36,10 +36,10 @@
   = Languages
   #item-pills((
     "C#", "Python", "Java",
-    "javascript",
-    "typescript",
+    "Javascript",
+    "Typescript",
     "HTML/CSS", ".NET",
-    "SQL", "MSSQL","PostgreSQL", "CockroachDB"
+    "SQL", "MSSQL", "PostgreSQL", "CockroachDB"
   ))
 
 = AI & Automation
@@ -72,27 +72,32 @@
 
 ][
 
-  = Professional Summary
+  = Senior Software Automation Engineer
   #entry()[
-    Senior Software Engineer with 15+ years of experience rapidly absorbing complex domain architectures, building intuitive testing ecosystems, and scaling critical backend infrastructure. Most recently at OLO, served as a co-owner and domain expert for performance, load testing, and E2E frameworks servicing 500+ enterprise restaurant brands, while co-authoring company-wide quality standards. Expanding into agentic AI by building multi-agent orchestrations (LangGraph, LangChain), local LLM evaluation suites, and MCP-enabled harnesses to integrate AI across the engineering lifecycle. Seeking Senior Software Engineer roles leading platform reliability, quality architecture, and developer enablement.
+    Software Automation Engineer with 15 years of experience architecting robust automation ecosystems and scaling critical backend infrastructure. Currently applying agentic LLM orchestration and multi-agent workflows to accelerate the software engineering lifecycle. Seeking senior roles bridging large-scale platform reliability with AI-driven development.
+    //Senior Software Engineer with 15+ years of experience rapidly absorbing complex domain architectures, building intuitive testing ecosystems, and scaling critical backend infrastructure. Most recently at OLO, served as a co-owner and domain expert for performance, load testing, and E2E frameworks servicing 500+ enterprise restaurant brands, while co-authoring company-wide quality standards. Expanding into agentic AI by building multi-agent orchestrations (LangGraph, LangChain), local LLM evaluation suites, and MCP-enabled harnesses to integrate AI across the engineering lifecycle. Seeking Senior Software Engineer roles leading platform reliability, quality architecture, and developer enablement.
     // OPTION A (AI/Agentic Focus): Seeking Senior Software Engineer roles focused on building agentic workflows, LLM tooling, and AI-driven development systems.
     // OPTION B (Quality & Platform Focus): Seeking Senior Software Engineer roles leading platform reliability, quality architecture, and developer enablement.
     // OPTION C (Broad Intersection): Seeking Senior engineering roles at the intersection of large-scale backend systems, quality engineering, and agentic AI.
   ]
 
+  #v(.3cm)
+
   = Experience
 
-  #v(.2cm)
+  #v(.3cm)
 
   #entry(
     title: [_OLO, Inc._],
-    institution: [*Senior SDET II  / Senior SE II*],
+    institution: [*Senior SDET II / Senior SE II*],
     location: "Remote",
     date: "Jan 2021 - May 2026",
     [
-      - *Scale & Performance:* Led platform stability initiatives for OLO's C\#/\.NET Ordering platform on AWS and Kubernetes, improving reliability across infrastructure sustaining peaks exceeding 4,500 orders per minute
-      - *Event Readiness:* Engineered a high-concurrency k6 regression suite mimicking historical failure scenarios, establishing a standardized readiness protocol used to verify system stability before major high-traffic events. The suite served as an early-warning indicator on at least two occasions, while also providing bi-weekly load tests surfacing areas of concern
-      - *Infrastructure Modernization:* Orchestrated large-scale cross-team initiatives using Terraform, including cross-platform API migrations and high-scale database conversions (MSSQL, CockroachDB), ensuring zero downtime and maintaining strict contract integrity
+      - Established a standardized readiness protocol for major high-traffic events by developing a high-concurrency k6 regression suite that also provided bi-weekly load testing and served as an early-warning indicator on at least 2 occasions
+      - Achieved 0 downtime while leading cross-team initiatives, including cross-platform API migrations with Terraform and high-scale MSSQL, PostgreSQL, and CockroachDB database conversions
+      - Deployed 50+ microservices weekly within 2-hour windows as a lead Release Anchor, managing the entire company product release for the core ordering platform and attendant services from a central monorepo
+      - Accelerated test and feature development by integrating agentic AI workflows to deliver production-ready code and generate initial test cases for manual refinement
+      - Led platform stability initiatives for the OLO C\# and .NET Ordering platform on AWS and Kubernetes, improving reliability across infrastructure sustaining peaks exceeding 4,500 orders per minute
     ],
   )
 
@@ -100,13 +105,13 @@
     institution: [*Senior Software Quality Engineer II*],
     date: "Jan 2018 - Jan 2021",
     [
-      - *Testing Architecture:* Co-architected a company-wide automated testing platform (Selenium, Playwright, k6) integrated into CI/CD pipelines (TeamCity, GitHub Actions, Octopus Deploy), enabling 10–15 product teams to accelerate release cadence from weekly to routine daily deployments
-      - *Engineering Standards & Quality Governance:* Authored organization-wide quality standards adopted by 20+ teams, codifying procedural patterns in Confluence to align engineering principles across the company
-      - *Agile Delivery & Quality Execution:* Actively participated in Agile/Scrum processes, bringing quality into planning, estimation, and refinement. Breaking down requirements and edge cases into tests. Wrote automated tests and reviewed code throughout sprints, ensuring test coverage and maintainability
+      - Accelerated release cadence from weekly to daily for 15 product teams by co-architecting a company-wide automated testing platform (Selenium, Playwright, k6) integrated into CI/CD pipelines (TeamCity, GitHub Actions, Octopus Deploy)
+      - Published quality standards adopted by 20+ teams by codifying organization-wide processes in Confluence to align engineering principles across the company
+      - Improved test coverage and code maintainability by integrating quality analysis into sprint refinement and translating edge cases into automated tests
     ],
   )
 
-  #v(.2cm)
+  #v(.3cm)
 
   #entry(
     title: [_InVisionApp_],
@@ -114,12 +119,12 @@
     location: "Remote",
     date: "Feb 2016 - Nov 2017",
     [
-      - *Infrastructure Observability:* Designed TypeScript validation and Datadog monitoring tooling for enterprise AWS and Kubernetes deployments, delivering real-time visibility and Slack alerts across dozens of dynamically scaling clusters
-      - *CI/CD Modernization:* Migrated legacy automation pipelines from Jenkins to containerized environments on Docker and Kubernetes, supporting continuous deployment with multiple daily releases
+      - Delivered real-time visibility and Slack alerts across 20+ clusters by designing TypeScript validation and Datadog monitoring tooling for enterprise AWS and Kubernetes deployments
+      - Accelerated deployment cycles to support on-demand releases by migrating legacy Jenkins automation pipelines to containerized Docker and Kubernetes environments
     ],
   )
 
-  #v(.2cm)
+  #v(.3cm)
 
   #entry(
     title: [_Viakoo_],
@@ -127,12 +132,12 @@
     location: "Remote",
     date: "Dec 2013 - Jul 2015",
     [
-      - *Simulation Platform Architecture:* Architected a modular simulation engine from scratch (Java, Jenkins), empowering non-technical teams to validate complex system behaviors without writing code
-      - *Synthetic Data Architecture:* Engineered a synthetic data generator mimicking high-throughput security pipelines, expanding the core engine into an interactive web app for live system demos
+      - Established the first automated end-to-end testing suite for the startup by architecting a modular Java and Selenium simulation engine, empowering non-technical coworkers to validate system behaviors
+      - Built a synthetic data generator mimicking high-throughput security pipelines, expanding the core engine into a web app for trade show system demos
     ],
   )
 
-  #v(.2cm)
+  #v(.3cm)
 
 
   #entry(
@@ -141,7 +146,7 @@
     location: "San Luis Obispo, CA",
     date: "Aug 2010 - Dec 2013",
     [
-      - *Leadership & Modernization:* Led a team of 3 engineers to modernize core product automation infrastructure using Selenium, Java, and Jenkins, advancing from Quality Engineer to QA Team Lead
+      - Directed a team of 3 engineers in modernizing the core automation infrastructure with Java and Selenium, establishing comprehensive regression and integration testing for major corporate initiatives
     ],
   )
 
