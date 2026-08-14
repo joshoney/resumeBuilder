@@ -30,7 +30,7 @@
   = Contact
   #contact-info()
 
-  = Connect
+  = Profiles
   #social-links()
 
   = Languages

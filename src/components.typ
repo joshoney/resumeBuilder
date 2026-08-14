@@ -61,9 +61,9 @@
     let theme = __st-theme.final()
 
 
-    block(width: 100%, height: size, radius: 0.6em, align(horizon, [
-      #box(height: 100%, link(url)[#display])
-    ]))
+    block(width: 100%, below: 0.8em, [
+      #link(url)[#display]
+    ])
   }
 )
 
