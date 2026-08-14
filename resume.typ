@@ -88,10 +88,10 @@
     location: "Remote",
     date: "May 2026\n–\nSep 2023",
     [
-      - *Scale & Performance:* Co-led platform stability initiatives for OLO's C\#/\.NET Ordering platform on AWS and Kubernetes, improving reliability across infrastructure sustaining peaks exceeding 4,500 orders per minute.
-      - *Event Readiness:* Engineered a high-concurrency k6 regression suite mimicking historical failure scenarios, establishing a standardized readiness protocol used to verify system stability before major high-traffic events. The suite served as an early-warning indicator on at least two occasions, surfacing potential issues before they could impact production.
+      - *Scale & Performance:* Led platform stability initiatives for OLO's C\#/\.NET Ordering platform on AWS and Kubernetes, improving reliability across infrastructure sustaining peaks exceeding 4,500 orders per minute.
+      - *Event Readiness:* Engineered a high-concurrency k6 regression suite mimicking historical failure scenarios, establishing a standardized readiness protocol used to verify system stability before major high-traffic events. The suite served as an early-warning indicator on at least two occasions, while also providing bi-weekly load tests surfacing areas of concern.
       - *Infrastructure Modernization:* Orchestrated large-scale cross-team initiatives using Terraform, including cross-platform API migrations and high-scale database conversions (MSSQL, CockroachDB), ensuring zero downtime and maintaining strict contract integrity.
-      - *Agile Delivery & Quality Execution:* Actively participated in Agile/Scrum processes, bringing quality into planning, estimation, and refinement. Breaking down requirements and edge cases into tests. Wrote automated tests and reviewed code throughout sprints, ensuring robust test coverage and maintainability.
+      - *Agile Delivery & Quality Execution:* Actively participated in Agile/Scrum processes, bringing quality into planning, estimation, and refinement. Breaking down requirements and edge cases into tests. Wrote automated tests and reviewed code throughout sprints, ensuring test coverage and maintainability.
     ],
   )
 
@@ -100,7 +100,7 @@
     date: "Aug 2023\n-\nJan 2018",
     [
       - *Testing Architecture:* Co-architected a company-wide automated testing platform (Selenium, Playwright, k6) integrated into CI/CD pipelines (TeamCity, GitHub Actions, Octopus Deploy), enabling 10–15 product teams to accelerate release cadence from weekly to routine daily deployments.
-      - *Engineering Standards & Quality Governance:* Co-authored organization-wide quality standards adopted by 20+ teams, codifying procedural patterns in Confluence to align engineering principles across the company.
+      - *Engineering Standards & Quality Governance:* Authored organization-wide quality standards adopted by 20+ teams, codifying procedural patterns in Confluence to align engineering principles across the company.
     ],
   )
 
