@@ -122,9 +122,9 @@
   /// List of items to display as pills
   /// -> array
   items,
-  /// Whether to justify the pills (default: true)
+  /// Whether to justify the pills (default: false)
   /// -> boolean
-  justify: true,
+  justify: false,
 ) = (
   context {
     let theme = __st-theme.final()

@@ -74,7 +74,7 @@
 
   = Senior Software Automation Engineer
   #entry()[
-    Software Automation Engineer with 15 years of experience architecting robust automation ecosystems and scaling critical backend infrastructure. Currently applying agentic LLM orchestration and multi-agent workflows to accelerate the software engineering lifecycle. Seeking senior roles bridging large-scale platform reliability with AI-driven development.
+    Software Automation Engineer with 15 years of experience architecting robust automation ecosystems and scaling critical backend infrastructure. Currently applying agentic LLM orchestration and multi-agent workflows to accelerate the software engineering lifecycle.
     //Senior Software Engineer with 15+ years of experience rapidly absorbing complex domain architectures, building intuitive testing ecosystems, and scaling critical backend infrastructure. Most recently at OLO, served as a co-owner and domain expert for performance, load testing, and E2E frameworks servicing 500+ enterprise restaurant brands, while co-authoring company-wide quality standards. Expanding into agentic AI by building multi-agent orchestrations (LangGraph, LangChain), local LLM evaluation suites, and MCP-enabled harnesses to integrate AI across the engineering lifecycle. Seeking Senior Software Engineer roles leading platform reliability, quality architecture, and developer enablement.
     // OPTION A (AI/Agentic Focus): Seeking Senior Software Engineer roles focused on building agentic workflows, LLM tooling, and AI-driven development systems.
     // OPTION B (Quality & Platform Focus): Seeking Senior Software Engineer roles leading platform reliability, quality architecture, and developer enablement.
@@ -93,9 +93,9 @@
     location: "Remote",
     date: "Jan 2021 - May 2026",
     [
-      - Established a standardized readiness protocol for major high-traffic events by developing a high-concurrency k6 regression suite that also provided bi-weekly load testing and served as an early-warning indicator on at least 2 occasions
+      - Established a standardized readiness protocol for major high-traffic events by developing a k6 regression suite that also provided bi-weekly load testing and served as an early-warning indicator on at least 2 occasions
       - Achieved 0 downtime while leading cross-team initiatives, including cross-platform API migrations with Terraform and high-scale MSSQL, PostgreSQL, and CockroachDB database conversions
-      - Deployed 50+ microservices weekly within 2-hour windows as a lead Release Anchor, managing the entire company product release for the core ordering platform and attendant services from a central monorepo
+      - Deployed 50+ microservices weekly as a lead Release Anchor, managing the entire company product release for the core ordering platform and attendant services from a central monorepo
       - Accelerated test and feature development by integrating agentic AI workflows to deliver production-ready code and generate initial test cases for manual refinement
       - Led platform stability initiatives for the OLO C\# and .NET Ordering platform on AWS and Kubernetes, improving reliability across infrastructure sustaining peaks exceeding 4,500 orders per minute
     ],
@@ -142,7 +142,7 @@
 
   #entry(
     title: [_Shopatron_],
-    institution: "QA Team Lead",
+    institution: [*QA Team Lead*],
     location: "San Luis Obispo, CA",
     date: "Aug 2010 - Dec 2013",
     [
