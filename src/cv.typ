@@ -56,7 +56,7 @@
   accent-color: rgb("#408abb"),
   /// Main text color
   /// -> color
-  font-color: rgb("#333333"),
+  font-color: rgb("#000000"),
   /// Color for header background
   /// -> color
   header-color: luma(50),
@@ -245,9 +245,8 @@
     }
   }
 
-  head
-
-  v(dim.header-body-gap)
+  // head
+  // v(dim.header-body-gap)
 
   body
 }

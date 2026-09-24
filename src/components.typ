@@ -186,27 +186,31 @@
 
     #set text(size: ENTRY_CONTENT_FONT_SIZE_SCALE * 1em)
 
-    #block([
-      #text(weight: "semibold", title)
-      #h(1fr)
-      #text(
-        size: ENTRY_DATE_FONT_SIZE_SCALE * 1.1em,
-        fill: theme.font-color.lighten(20%),
-        date,
-      )
-    ])
+    #if title != none or date != "" [
+      #block([
+        #text(weight: "semibold", title)
+        #h(1fr)
+        #text(
+          size: ENTRY_DATE_FONT_SIZE_SCALE * 1.1em,
+          fill: theme.font-color.lighten(20%),
+          date,
+        )
+      ])
+    ]
 
-    #text(size: 0.9em, smallcaps([
-      #if institution != "" or location != "" [
+    #if institution != "" or location != "" [
+      #text(size: 0.9em, smallcaps([
         #institution
         #h(1fr)
         #if location != "" [
           #location
         ]
-      ]
-    ]))
+      ]))
+    ]
 
-    #text(size: 0.9em, description)
+    #if description != none and description != [] and description != "" [
+      #text(size: 0.9em, description)
+    ]
   ]
 }
 
