@@ -56,13 +56,14 @@
       - Accelerated test development by integrating agentic AI workflows to deliver production-ready code and generate initial test cases for manual refinement
 
       - Architected a k6 load testing suite and mentored developers in its use, providing early-warning metrics to prevent outages, validating API middleware migrations, and executing bi-weekly regression tests
+      // - Collaborated on modernizing the enterprise Call Center ordering application by migrating customer selection UI elements to a standardized React and TanStack component library
 
       _*Senior Software Quality Engineer II*_
       - Accelerated release cadence from weekly to daily for 15 product teams by co-architecting a company-wide automated testing platform (Selenium, Playwright, k6) integrated into monorepo CI/CD pipelines (TeamCity, GitHub Actions, Octopus Deploy)
       
       - Published quality standards adopted by 20+ teams by codifying organization-wide processes in Confluence to align engineering principles across the company
       
-      - Improved test coverage and code maintainability by integrating quality analysis into sprint refinement, translating edge cases into automated tests, and mentoring developers to adopt a "Whole Team Quality" mindset
+      - Improved test coverage and code maintainability by integrating quality analysis into sprint refinement, translating edge cases into automated tests, and mentoring developers to adopt a "Whole Team Quality" methodology
     ],
   )
 
@@ -87,6 +88,7 @@
       - Established the first automated end-to-end testing suite for the startup by architecting a modular Java and Selenium simulation engine, empowering non-technical coworkers to validate system behaviors
       
       - Built a synthetic data generator mimicking high-throughput security pipelines, expanding the core engine into a web app for trade show system demos
+      // - Built the startup's automated end-to-end testing suite and synthetic data generator in Java to simulate high-throughput device pipelines, expanding the engine into an interactive demo web app
     ],
   )
 
